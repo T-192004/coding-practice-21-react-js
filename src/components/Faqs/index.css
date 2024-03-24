@@ -1,0 +1,29 @@
+/* Write your code here. */
+.app-container {
+  background-color: #e4e7eb;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+.faqs-container {
+  background-color: #ffffff;
+  position: relative;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 16px;
+}
+.faqs-title {
+  color: #cb8805;
+  font-size: 44px;
+  font-family: 'roboto';
+  font-weight: bolder;
+}
+.faqs-list-container {
+  list-style: none;
+}
