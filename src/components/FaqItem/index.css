@@ -31,18 +31,13 @@
   text-align: left;
 }
 .line {
-  display: none;
   background-color: #d7dae6;
   height: 2px;
   border: none;
   width: 100%;
 }
 .faq-ans {
- display: none;
   color: #9aa5b1;
   font-size: 16px;
   font-family: 'roboto';
-}
-.showAns {
- display: flex;
 }
