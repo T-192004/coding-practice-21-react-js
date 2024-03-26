@@ -28,8 +28,12 @@ const FaqItem = props => {
           />
         </button>
       </div>
-      <hr className={`line ${showAns}`} />
-      <p className={`faq-ans ${showAns}`}>{answerText}</p>
+      {showAns && (
+        <>
+          <hr className="line" />
+          <p className="faq-ans">{answerText}</p>
+        </>
+      )}
     </li>
   )
 }
